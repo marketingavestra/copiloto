@@ -168,8 +168,9 @@ export default function Home() {
     return () => { container.innerHTML = ''; };
   }, []);
 
-  const CTA_LINK = 'https://hub.la/r/j7tguiee9VrKd35uXIew';
+  const CTA_LINK = 'https://pay.hub.la/ijD5AVMkIfbwTT6gwB01';
   const handleCTA = () => window.location.href = CTA_LINK;
+  const scrollToCTA = () => document.getElementById('checkout-button')?.scrollIntoView({ behavior: 'smooth' });
 
   const faqItems = [
     { q: 'Esse produto é para mim?', a: 'É para você se é advogado e passa horas pesquisando jurisprudência, redigindo peças repetitivas ou controlando prazos manualmente. Se quer mais tempo para estratégia e menos para operacional, o Copiloto Jurídico é exatamente o que você precisa.' },
@@ -205,7 +206,7 @@ export default function Home() {
               <span className="sticky-price-new">R$27/mês</span>
             </span>
           </div>
-          <button className="sticky-bar-cta" onClick={handleCTA}>Quero meu Copiloto Jurídico →</button>
+          <button className="sticky-bar-cta" onClick={scrollToCTA}>Quero meu Copiloto Jurídico →</button>
         </div>
       </div>
 
@@ -216,7 +217,7 @@ export default function Home() {
             <span className="logo-text">Copiloto Jurídico</span>
             <span className="logo-badge">Beta</span>
           </a>
-          <button className="nav-cta" onClick={handleCTA}>Começar por R$27 →</button>
+          <button className="nav-cta" onClick={scrollToCTA}>Começar por R$27 →</button>
         </div>
       </nav>
 
@@ -237,7 +238,7 @@ export default function Home() {
             <p>Operação jurídica otimizada.<br />Você só precisa copiar e aplicar.</p>
           </div>
           <div className="hero-cta-group">
-            <button className="btn-primary" onClick={handleCTA}>Quero meu Copiloto Jurídico →</button>
+            <button className="btn-primary" onClick={scrollToCTA}>Quero meu Copiloto Jurídico →</button>
             <span className="btn-sub">Primeiro mês por R$27 · Cancele quando quiser</span>
           </div>
         </div>
@@ -249,7 +250,7 @@ export default function Home() {
         </div>
 
         <div className="hero-cta-group" style={{ marginTop: '2rem', position: 'relative', zIndex: 2 }}>
-          <button className="btn-primary" onClick={handleCTA}>Garantir minha vaga →</button>
+          <button className="btn-primary" onClick={scrollToCTA}>Garantir minha vaga →</button>
           <span className="btn-sub">⚡ R$27/mês — preço de lançamento</span>
         </div>
       </section>
@@ -488,7 +489,7 @@ export default function Home() {
       <section className="mid-cta">
         <h2>Seu Copiloto Jurídico está a alguns dias de distância.</h2>
         <p>Pare de executar o que a IA pode fazer. Comece a pensar estrategicamente.</p>
-        <button className="btn-white" onClick={handleCTA}>Quero meu Copiloto Jurídico →</button>
+        <button className="btn-white" onClick={scrollToCTA}>Quero meu Copiloto Jurídico →</button>
       </section>
 
       {/* ========== 10. OFERTA ========== */}
@@ -525,7 +526,7 @@ export default function Home() {
             </div>
           </div>
 
-          <button className="btn-primary" onClick={handleCTA} style={{ fontSize: 'var(--text-card)', padding: '1.2rem 3rem' }}>
+          <button id="checkout-button" className="btn-primary" onClick={handleCTA} style={{ fontSize: 'var(--text-card)', padding: '1.2rem 3rem' }}>
             Garantir minha vaga por R$27 →
           </button>
           <span className="btn-sub">Acesso imediato · Cancele quando quiser</span>
@@ -555,7 +556,7 @@ export default function Home() {
       <section className="mid-cta">
         <h2>Pronto para começar?</h2>
         <p>Primeiro mês por R$27 — preço de lançamento.</p>
-        <button className="btn-white" onClick={handleCTA}>Quero meu Copiloto Jurídico →</button>
+        <button className="btn-white" onClick={scrollToCTA}>Quero meu Copiloto Jurídico →</button>
       </section>
 
       {/* FOOTER */}
