@@ -244,7 +244,7 @@ export default function Home() {
         </div>
 
         {/* VSL Placeholder */}
-        <div className="vsl-container" style={{ background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(80,112,176,0.2)', minHeight: '380px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '1rem', cursor: 'pointer' }}>
+        <div className="vsl-container" style={{ background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(124, 58, 237, 0.2)', minHeight: '380px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '1rem', cursor: 'pointer' }}>
           <div style={{ width: 72, height: 72, borderRadius: '50%', background: 'var(--accent)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.5rem' }}>▶</div>
           <p style={{ color: 'rgba(255,255,255,0.5)', fontSize: '0.9rem' }}>Assista a apresentação do Copiloto Jurídico</p>
         </div>
