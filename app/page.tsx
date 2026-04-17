@@ -156,7 +156,7 @@ export default function Home() {
   useEffect(() => {
     const container = particlesRef.current;
     if (!container) return;
-    const colors = ['rgba(80,112,176,0.3)', 'rgba(144,192,224,0.2)', 'rgba(48,96,144,0.2)', 'rgba(112,144,192,0.2)'];
+    const colors = ['rgba(124, 58, 237, 0.2)', 'rgba(144,192,224,0.2)', 'rgba(48,96,144,0.2)', 'rgba(112,144,192,0.2)'];
     const count = window.innerWidth < 768 ? 10 : 20;
     for (let i = 0; i < count; i++) {
       const el = document.createElement('div');

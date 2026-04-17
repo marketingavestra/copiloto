@@ -136,7 +136,7 @@ section { padding: 6rem 2rem; }
   background: rgba(10, 20, 40, 0.5); color: var(--accent-light);
   padding: 0.2rem 0.6rem; border-radius: var(--radius-full);
   letter-spacing: 0.5px; text-transform: uppercase;
-  border: 1px solid rgba(80, 112, 176, 0.3);
+  border: 1px solid rgba(124, 58, 237, 0.3);
 }
 .nav-cta {
   background: var(--accent); color: var(--white);
@@ -160,7 +160,7 @@ section { padding: 6rem 2rem; }
 .navbar.scrolled {
   background: rgba(0, 0, 0, 0.98);
   box-shadow: 0 4px 30px rgba(0,0,0,0.5);
-  border-bottom-color: rgba(80, 112, 176, 0.4);
+  border-bottom-color: rgba(124, 58, 237, 0.4);
 }
 
 /* --- 7. HERO --- */
@@ -173,7 +173,7 @@ section { padding: 6rem 2rem; }
 .hero::before {
   content: '';
   position: absolute; top: -50%; left: -50%; width: 200%; height: 200%;
-  background: radial-gradient(ellipse at 60% 40%, rgba(80, 112, 176, 0.08) 0%, transparent 60%);
+  background: radial-gradient(ellipse at 60% 40%, rgba(124, 58, 237, 0.08) 0%, transparent 60%);
   pointer-events: none;
 }
 .hero::after {
@@ -208,7 +208,7 @@ section { padding: 6rem 2rem; }
   margin-bottom: 1.5rem;
 }
 .hero h1 .highlight {
-  background: linear-gradient(135deg, #ffffff 0%, #90C0E0 40%, #ffffff 60%, #5070B0 80%, #ffffff 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #C4B5FD 40%, #ffffff 60%, #7C3AED 80%, #ffffff 100%);
   background-size: 300% 100%;
   -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -391,7 +391,7 @@ section { padding: 6rem 2rem; }
 }
 .faq-item {
   background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(80, 112, 176, 0.15);
+  border: 1px solid rgba(124, 58, 237, 0.15);
   border-radius: var(--radius-md);
   margin-bottom: 0.8rem;
   overflow: hidden;
@@ -720,7 +720,7 @@ section { padding: 6rem 2rem; }
 }
 .metric-card {
   background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(80, 112, 176, 0.15);
+  border: 1px solid rgba(124, 58, 237, 0.15);
   border-radius: var(--radius-md);
   padding: 1.5rem 1rem;
   text-align: center;
@@ -844,12 +844,13 @@ section { padding: 6rem 2rem; }
   position: relative;
   padding: 2.8rem 2rem 1.8rem;
   box-shadow: 0 0 60px rgba(80,112,176,0.12);
+  box-shadow: 0 0 60px rgba(124, 58, 237, 0.12);
 }
 .price-badge {
   position: absolute;
   top: 0; left: 50%;
   transform: translate(-50%, -50%);
-  background: linear-gradient(135deg, var(--accent) 0%, #6090C0 100%);
+  background: linear-gradient(135deg, var(--accent) 0%, #6B21A8 100%);
   color: var(--white);
   font-size: var(--text-small); font-weight: 700;
   letter-spacing: 1.2px; text-transform: uppercase;
