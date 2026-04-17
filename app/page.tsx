@@ -561,7 +561,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer className="footer">
-        <p>© 2026 · <a href="#" className="brand-link">AVESTRA</a> · Copiloto Jurídico por Dr. Wladmir Bonadio Filho · OAB/SP 398.640</p>
+        <p>© 2026 · <a href="#" className="brand-link">Bonadio Cursos</a> · Copiloto Jurídico por Dr. Wladmir Bonadio Filho · OAB/SP 398.640</p>
       </footer>
     </>
   );

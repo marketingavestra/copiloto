@@ -36,7 +36,7 @@ export default function LoginPage() {
     <div className="login-page">
       <div className="login-card">
         <div className="login-logo">
-          <span className="login-logo-text">AVESTRA</span>
+          <span className="login-logo-text">Bonadio Cursos</span>
           <span className="login-logo-sub">Painel de Agentes</span>
         </div>
 
@@ -82,7 +82,7 @@ export default function LoginPage() {
         </form>
 
         <p className="login-footer">
-          © 2026 AVESTRA · Dr. Wladmir Bonadio Filho
+          © 2026 Bonadio Cursos · Dr. Wladmir Bonadio Filho
         </p>
       </div>
     </div>

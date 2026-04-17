@@ -19,7 +19,7 @@ const AGENTS = [
     ],
     responses: { default: [
       'Entendido. Vou analisar a situação com base no CLAUDE.md e nas métricas atuais. Para dar uma resposta precisa, preciso que você informe: (1) os números mais recentes de leads e faturamento, e (2) qual é a decisão que precisa ser tomada. Posso então montar a análise estratégica completa.',
-      'Como Agente Master, minha função é conectar os pontos entre todas as áreas. Baseado no contexto da AVESTRA, recomendo priorizarmos o fechamento dos primeiros contratos V1 antes de escalar o tráfego. Isso vai gerar prova social e caixa para reinvestimento. Quer que eu detalhe o plano de ação?',
+      'Como Agente Master, minha função é conectar os pontos entre todas as áreas. Baseado no contexto da Bonadio Cursos, recomendo priorizarmos o fechamento dos primeiros contratos V1 antes de escalar o tráfego. Isso vai gerar prova social e caixa para reinvestimento. Quer que eu detalhe o plano de ação?',
       'Visão geral da semana: marketing precisa de pauta aprovada, Victor tem 3 leads em negociação, Clara está configurando os onboardings. Minha recomendação: foque nos fechamentos — cada R$3k fechado esta semana muda o moral da equipe. O que quer que eu priorize agora?',
     ]},
   },
@@ -88,7 +88,7 @@ const AGENTS = [
     responses: { default: [
       'SOP #001 — Onboarding de Cliente V1:\n\nPasso 1: Receber assinatura do contrato\nPasso 2: Clara envia mensagem de boas-vindas (template A)\nPasso 3: Victor agenda reunião de kickoff em 72h\nPasso 4: Maya realiza diagnóstico de perfil\nPasso 5: Pauta do mês 1 aprovada pelo Wladmir\nPasso 6: Publicação do primeiro post\nPasso 7: Check-in no dia 15\n\nQuer que eu documente os scripts de cada passo?',
       'Processos que precisam virar automação imediata:\n\n1. Follow-up de leads (Victor) — 48h sem resposta → mensagem automática\n2. Coleta de depoimento (Clara) — 30 dias pós-contrato → lembrete\n3. Relatório semanal (Leo) — toda sexta às 17h → compilação automática\n4. Pauta de conteúdo (Maya) — toda segunda → template pré-preenchido\n\nQuer que eu priorize a implementação de algum?',
-      'Regra operacional da AVESTRA: toda tarefa repetida 2x vira SOP. Todo SOP executado 3x vira automação. Precisamos documentar: atendimento inicial, proposta comercial, onboarding e coleta de NPS. Por onde quer começar?',
+      'Regra operacional da Bonadio Cursos: toda tarefa repetida 2x vira SOP. Todo SOP executado 3x vira automação. Precisamos documentar: atendimento inicial, proposta comercial, onboarding e coleta de NPS. Por onde quer começar?',
     ]},
   },
 ];
@@ -201,7 +201,7 @@ CONTRATADO:
 Dr. Wladmir Bonadio Filho
 Advogado — OAB/SP nº 398.640
 Endereço profissional: ______________________
-E-mail: wladmir@avestra.com.br
+E-mail: wladmir@bonadiocursos.com.br
 
 CLÁUSULA 1ª — DO OBJETO
 O CONTRATADO obriga-se a prestar ao CONTRATANTE os seguintes serviços de natureza jurídica:
@@ -341,7 +341,7 @@ I — DA IMPUGNAÇÃO DOS FATOS
     id: 'd5', title: 'Checklist de Onboarding de Cliente V1', category: 'Operações', icon: '✅', size: '18 KB', date: '2026-04-10', type: 'PDF',
     pages: [
       { title: 'Checklist de Onboarding — Cliente V1', content: `CHECKLIST DE ONBOARDING — CLIENTE V1
-AVESTRA · Advocacia & Educação Jurídica
+Bonadio Cursos · Advocacia & Educação Jurídica
 Responsável: Clara (Agente de Atendimento)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -397,7 +397,7 @@ ETAPA 5 — FIM DO PRIMEIRO MÊS
     id: 'd6', title: 'SOP #001 — Atendimento Inicial de Lead', category: 'Operações', icon: '📋', size: '30 KB', date: '2026-04-10', type: 'PDF',
     pages: [
       { title: 'SOP #001 — Atendimento Inicial de Lead', content: `SOP #001 — ATENDIMENTO INICIAL DE LEAD
-AVESTRA · Versão 1.0 · Criado em: Abril/2026
+Bonadio Cursos · Versão 1.0 · Criado em: Abril/2026
 Responsável: Victor (Vendas) + Clara (Atendimento)
 
 OBJETIVO
@@ -445,7 +445,7 @@ PRAZO MÁXIMO: 48h entre primeiro contato e reunião.` },
     id: 'd7', title: 'Planilha DRE Mensal — Template', category: 'Financeiro', icon: '📊', size: '85 KB', date: '2026-04-01', type: 'XLSX',
     pages: [
       { title: 'DRE Mensal — Template', content: `DEMONSTRATIVO DE RESULTADO DO EXERCÍCIO (DRE)
-AVESTRA · Dr. Wladmir Bonadio Filho
+Bonadio Cursos · Dr. Wladmir Bonadio Filho
 Mês de Referência: ________________________
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -494,7 +494,7 @@ ATINGIMENTO:                           _______ %` },
     id: 'd8', title: 'Proposta Comercial V1 — Template', category: 'Vendas', icon: '💰', size: '40 KB', date: '2026-04-05', type: 'PDF',
     pages: [
       { title: 'Proposta Comercial — Posicionamento Digital', content: `PROPOSTA DE POSICIONAMENTO DIGITAL JURÍDICO
-AVESTRA · Dr. Wladmir Bonadio Filho · OAB/SP 398.640
+Bonadio Cursos · Dr. Wladmir Bonadio Filho · OAB/SP 398.640
 
 Preparada especialmente para: ______________________
 Data: ____ / ____ / 2026
@@ -547,7 +547,7 @@ devolvemos o valor do último mês, sem burocracia.` },
     id: 'd9', title: 'Script de Primeiro Contato — WhatsApp', category: 'Vendas', icon: '💬', size: '15 KB', date: '2026-04-05', type: 'PDF',
     pages: [
       { title: 'Scripts de Vendas — WhatsApp', content: `SCRIPTS DE VENDAS — PRIMEIRO CONTATO WHATSAPP
-AVESTRA · Agente Victor · Versão 1.0
+Bonadio Cursos · Agente Victor · Versão 1.0
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SCRIPT 1 — LEAD QUE VEIO DO INSTAGRAM (ICP01)
@@ -594,7 +594,7 @@ Só quero garantir que você tem todas as informações para decidir. Tem alguma
     id: 'd10', title: 'Calendário Editorial — Template Mensal', category: 'Marketing', icon: '📅', size: '25 KB', date: '2026-04-08', type: 'XLSX',
     pages: [
       { title: 'Calendário Editorial — Maio/2026', content: `CALENDÁRIO EDITORIAL MENSAL
-AVESTRA · Perfis: @wladmirbonadiofilho_adv + @wbonadiofilho
+Bonadio Cursos · Perfis: @wladmirbonadiofilho_adv + @wbonadiofilho
 Mês: MAIO / 2026 · Responsável: Maya
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -634,7 +634,7 @@ SEX 16 · @adv  · Stories    · Pilar: Prova Social
   {
     id: 'd11', title: 'Copy Framework — Regras de Persuasão', category: 'Marketing', icon: '✍️', size: '35 KB', date: '2026-04-08', type: 'PDF',
     pages: [
-      { title: 'Copy Framework — Página 1', content: `COPY FRAMEWORK — AVESTRA
+      { title: 'Copy Framework — Página 1', content: `COPY FRAMEWORK — Bonadio Cursos
 Regras de Persuasão e Comunicação
 Versão 1.0 · Criado por: Leo + Maya
 
@@ -674,7 +674,7 @@ PALAVRAS PROIBIDAS
 ✗ "geralmente"     ✗ "costuma"        ✗ "provavelmente"
 
 Essas palavras destroem confiança. Use linguagem afirmativa e direta.` },
-      { title: 'Copy Framework — Página 2', content: `COPY FRAMEWORK — AVESTRA
+      { title: 'Copy Framework — Página 2', content: `COPY FRAMEWORK — Bonadio Cursos
 Estrutura de Página de Vendas
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -725,9 +725,9 @@ ESTRUTURA PADRÃO DE PÁGINA DE VENDAS
     ],
   },
   {
-    id: 'd12', title: 'Design System AVESTRA — Guia Visual', category: 'Marketing', icon: '🎨', size: '2.1 MB', date: '2026-04-01', type: 'PDF',
+    id: 'd12', title: 'Design System Bonadio Cursos — Guia Visual', category: 'Marketing', icon: '🎨', size: '2.1 MB', date: '2026-04-01', type: 'PDF',
     pages: [
-      { title: 'Design System — Identidade Visual', content: `DESIGN SYSTEM AVESTRA
+      { title: 'Design System — Identidade Visual', content: `DESIGN SYSTEM Bonadio Cursos
 Guia de Identidade Visual · Versão 1.0
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -804,7 +804,7 @@ export default function DashboardPage() {
       <aside className="dash-sidebar">
         <div className="dash-sidebar-header">
           <div className="dash-logo">
-            <span className="dash-logo-text">AVESTRA</span>
+            <span className="dash-logo-text">Bonadio Cursos</span>
             <span className="dash-logo-badge">Pro</span>
           </div>
         </div>
@@ -917,7 +917,7 @@ function AgentsSection() {
           ) : (
             <div className="dash-header-agent">
               <span className="dash-header-name">Hub de Agentes</span>
-              <span className="dash-header-role">AVESTRA · Selecione um agente para começar</span>
+              <span className="dash-header-role">Bonadio Cursos · Selecione um agente para começar</span>
             </div>
           )}
           {currentAgent && <div className="dash-header-status"><span className="dash-status-dot" /> Online</div>}
@@ -1177,7 +1177,7 @@ function CoursesSection() {
       <div className="member-page-header">
         <div>
           <h1 className="member-page-title">Meus Cursos</h1>
-          <p className="member-page-sub">Biblioteca de treinamentos exclusivos AVESTRA</p>
+          <p className="member-page-sub">Biblioteca de treinamentos exclusivos Bonadio Cursos</p>
         </div>
         <div className="member-stats-row">
           <div className="member-stat-card"><strong>{COURSES.length}</strong><span>Cursos</span></div>
@@ -1290,11 +1290,11 @@ function PdfModal({ doc, onClose }: { doc: DocItem; onClose: () => void }) {
           <div className="pdf-page">
             <div className="pdf-page-header-bar">
               <span className="pdf-page-label">{doc.pages[page].title}</span>
-              <div className="pdf-page-logo">AVESTRA</div>
+              <div className="pdf-page-logo">Bonadio Cursos</div>
             </div>
             <pre className="pdf-page-content">{doc.pages[page].content}</pre>
             <div className="pdf-page-footer">
-              <span>AVESTRA · Dr. Wladmir Bonadio Filho · OAB/SP 398.640</span>
+              <span>Bonadio Cursos · Dr. Wladmir Bonadio Filho · OAB/SP 398.640</span>
               <span>Pág. {page + 1}</span>
             </div>
           </div>
