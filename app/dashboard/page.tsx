@@ -99,7 +99,7 @@ const COURSES = [
     id: 'posicionamento',
     title: 'Posicionamento Digital para Advogados',
     description: 'Como construir autoridade no Instagram e atrair clientes qualificados sem violar o Código de Ética da OAB.',
-    thumb: 'https://img.youtube.com/vi/LXb3EKWsInQ/maxresdefault.jpg',
+    thumb: 'https://img.youtube.com/vi/7yv_kIu7H8Q/hqdefault.jpg',
     progress: 65,
     lessons: 24,
     duration: '8h 30min',
@@ -107,26 +107,26 @@ const COURSES = [
     modules: [
       {
         id: 'm1', title: 'Fundamentos do Posicionamento', lessons: [
-          { id: 'l1', title: 'Introdução: Por que o advogado precisa de posicionamento', duration: '12:30', done: true, videoId: 'LXb3EKWsInQ' },
-          { id: 'l2', title: 'Os 3 pilares da autoridade digital jurídica', duration: '18:45', done: true, videoId: 'dQw4w9WgXcQ' },
-          { id: 'l3', title: 'Entendendo seu ICP: quem é o seu cliente ideal?', duration: '22:10', done: true, videoId: 'jNQXAC9IVRw' },
-          { id: 'l4', title: 'A diferença entre marketing jurídico e publicidade vedada', duration: '15:20', done: false, videoId: 'LXb3EKWsInQ' },
+          { id: 'l1', title: 'Introdução: Por que o advogado precisa de posicionamento', duration: '12:30', done: true, videoId: 'Z91EukGPGSg' },
+          { id: 'l2', title: 'Os 3 pilares da autoridade digital jurídica', duration: '18:45', done: true, videoId: 'Z91EukGPGSg' },
+          { id: 'l3', title: 'Entendendo seu ICP: quem é o seu cliente ideal?', duration: '22:10', done: true, videoId: 'Z91EukGPGSg' },
+          { id: 'l4', title: 'A diferença entre marketing jurídico e publicidade vedada', duration: '15:20', done: false, videoId: 'Z91EukGPGSg' },
         ]
       },
       {
         id: 'm2', title: 'Conteúdo que Converte', lessons: [
-          { id: 'l5', title: 'Os 5 pilares de conteúdo para advogados', duration: '20:00', done: false, videoId: 'dQw4w9WgXcQ' },
-          { id: 'l6', title: 'Como criar um case jurídico sem infringir a ética', duration: '17:30', done: false, videoId: 'jNQXAC9IVRw' },
-          { id: 'l7', title: 'Roteiro de Reels em 3 minutos: template prático', duration: '25:15', done: false, videoId: 'LXb3EKWsInQ' },
-          { id: 'l8', title: 'Stories que vendem: frequência e formato', duration: '14:50', done: false, videoId: 'dQw4w9WgXcQ' },
+          { id: 'l5', title: 'Os 5 pilares de conteúdo para advogados', duration: '20:00', done: false, videoId: 'Z91EukGPGSg' },
+          { id: 'l6', title: 'Como criar um case jurídico sem infringir a ética', duration: '17:30', done: false, videoId: 'Z91EukGPGSg' },
+          { id: 'l7', title: 'Roteiro de Reels em 3 minutos: template prático', duration: '25:15', done: false, videoId: 'Z91EukGPGSg' },
+          { id: 'l8', title: 'Stories que vendem: frequência e formato', duration: '14:50', done: false, videoId: 'Z91EukGPGSg' },
         ]
       },
       {
         id: 'm3', title: 'Captação e Conversão', lessons: [
-          { id: 'l9', title: 'Do seguidor ao lead: a jornada do cliente digital', duration: '19:20', done: false, videoId: 'jNQXAC9IVRw' },
-          { id: 'l10', title: 'Bio do Instagram que converte: o checklist completo', duration: '11:45', done: false, videoId: 'LXb3EKWsInQ' },
-          { id: 'l11', title: 'WhatsApp como canal de vendas jurídico', duration: '23:00', done: false, videoId: 'dQw4w9WgXcQ' },
-          { id: 'l12', title: 'Medindo resultados: métricas que importam', duration: '16:30', done: false, videoId: 'jNQXAC9IVRw' },
+          { id: 'l9', title: 'Do seguidor ao lead: a jornada do cliente digital', duration: '19:20', done: false, videoId: 'Z91EukGPGSg' },
+          { id: 'l10', title: 'Bio do Instagram que converte: o checklist completo', duration: '11:45', done: false, videoId: 'Z91EukGPGSg' },
+          { id: 'l11', title: 'WhatsApp como canal de vendas jurídico', duration: '23:00', done: false, videoId: 'Z91EukGPGSg' },
+          { id: 'l12', title: 'Medindo resultados: métricas que importam', duration: '16:30', done: false, videoId: 'Z91EukGPGSg' },
         ]
       },
     ]
@@ -135,7 +135,7 @@ const COURSES = [
     id: 'peças',
     title: 'Peças Jurídicas com IA: Trabalhista',
     description: 'Domine o uso de inteligência artificial para redigir petições, contratos e pareceres em Direito do Trabalho com qualidade e agilidade.',
-    thumb: 'https://img.youtube.com/vi/jNQXAC9IVRw/maxresdefault.jpg',
+    thumb: 'https://img.youtube.com/vi/mI60u_YwQuQ/hqdefault.jpg',
     progress: 20,
     lessons: 18,
     duration: '6h 15min',
@@ -143,16 +143,16 @@ const COURSES = [
     modules: [
       {
         id: 'm1', title: 'IA no Escritório Jurídico', lessons: [
-          { id: 'l1', title: 'Ferramentas de IA para advogados: overview 2026', duration: '16:00', done: true, videoId: 'jNQXAC9IVRw' },
-          { id: 'l2', title: 'Limites éticos e responsabilidade do advogado', duration: '14:30', done: true, videoId: 'LXb3EKWsInQ' },
-          { id: 'l3', title: 'Configurando seu workflow de IA', duration: '20:45', done: false, videoId: 'dQw4w9WgXcQ' },
+          { id: 'l1', title: 'Ferramentas de IA para advogados: overview 2026', duration: '16:00', done: true, videoId: 'Z91EukGPGSg' },
+          { id: 'l2', title: 'Limites éticos e responsabilidade do advogado', duration: '14:30', done: true, videoId: 'Z91EukGPGSg' },
+          { id: 'l3', title: 'Configurando seu workflow de IA', duration: '20:45', done: false, videoId: 'Z91EukGPGSg' },
         ]
       },
       {
         id: 'm2', title: 'Petições com IA', lessons: [
-          { id: 'l4', title: 'Reclamação Trabalhista: prompt-to-petição em 10 min', duration: '28:20', done: false, videoId: 'jNQXAC9IVRw' },
-          { id: 'l5', title: 'Defesa do Réu (Reclamada): estrutura e argumentação', duration: '24:15', done: false, videoId: 'LXb3EKWsInQ' },
-          { id: 'l6', title: 'Recursos: como usar IA para análise jurisprudencial', duration: '19:00', done: false, videoId: 'dQw4w9WgXcQ' },
+          { id: 'l4', title: 'Reclamação Trabalhista: prompt-to-petição em 10 min', duration: '28:20', done: false, videoId: 'Z91EukGPGSg' },
+          { id: 'l5', title: 'Defesa do Réu (Reclamada): estrutura e argumentação', duration: '24:15', done: false, videoId: 'Z91EukGPGSg' },
+          { id: 'l6', title: 'Recursos: como usar IA para análise jurisprudencial', duration: '19:00', done: false, videoId: 'Z91EukGPGSg' },
         ]
       },
     ]
@@ -161,7 +161,7 @@ const COURSES = [
     id: 'vendas',
     title: 'Fechamento de Contratos de Alto Valor',
     description: 'Método de consultiva jurídica para fechar contratos de R$3.000/mês sem parecer vendedor e sem violar a ética da OAB.',
-    thumb: 'https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg',
+    thumb: 'https://img.youtube.com/vi/lJIrFagevic/hqdefault.jpg',
     progress: 0,
     lessons: 12,
     duration: '4h 20min',
@@ -169,9 +169,9 @@ const COURSES = [
     modules: [
       {
         id: 'm1', title: 'Mentalidade de Vendas Consultivas', lessons: [
-          { id: 'l1', title: 'O advogado não vende: ele resolve problemas', duration: '13:00', done: false, videoId: 'dQw4w9WgXcQ' },
-          { id: 'l2', title: 'Os 4 perfis de cliente e como abordá-los', duration: '21:30', done: false, videoId: 'jNQXAC9IVRw' },
-          { id: 'l3', title: 'Precificação: como chegar ao seu ticket ideal', duration: '18:45', done: false, videoId: 'LXb3EKWsInQ' },
+          { id: 'l1', title: 'O advogado não vende: ele resolve problemas', duration: '13:00', done: false, videoId: 'Z91EukGPGSg' },
+          { id: 'l2', title: 'Os 4 perfis de cliente e como abordá-los', duration: '21:30', done: false, videoId: 'Z91EukGPGSg' },
+          { id: 'l3', title: 'Precificação: como chegar ao seu ticket ideal', duration: '18:45', done: false, videoId: 'Z91EukGPGSg' },
         ]
       },
     ]
